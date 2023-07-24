@@ -1,0 +1,50 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.qbackground-color {
+  background-color: #F2F6FF;
+}
+
+body {
+  @apply qbackground-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-header;
+}
+
+a {
+  @apply text-blue-500;
+}
+
+p {
+  @apply text-gray-600 mb-6 leading-relaxed;
+}
+
+pre {
+  @apply break-all whitespace-pre-wrap;
+}
+
+.container {
+  @apply w-10/12 mx-auto;
+}
+
+.iq-button {
+  background-color: #01579B;
+  border-color: #3C4A71;
+}
+
+.text-greenblue {
+  color: #C1E1DD;
+}
+
+.iq-bg-green {
+  background-color: #00796B;
+}
+
+@import "./vendor/hljs";
+
+.CodeMirror {
+  @apply font-sans text-base w-full max-w-full border-dashed border-2 border-gray-400 rounded-lg pl-5 mb-6;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "pbuilder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth-next": "5.0.0-1610809099.bcf293f",
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/svg-sprite": "^0.5.2",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9",
+    "core-js": "^3.6.5",
+    "fibers": "^5.0.0",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.14.6",
+    "postcss": "^8.2.4",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.1.0",
+    "sass-loader": "^10.1.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "vue-tasty-burgers": "^1.2.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
